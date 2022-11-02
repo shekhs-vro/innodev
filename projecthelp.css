@@ -1,8 +1,52 @@
-.navigation{
-    padding: 2px;
-   
-}
 .nav-custom
 {
-    background-color: aqua;
+    background-color: #FFE05D;
+    
+}
+.mainintro
+{   padding: 10rem;
+    background-color:#D2DAFF;
+    text-align: center;
+    background-image: url("back.jpg");
+    color: gold;
+    padding-right: 40rem;
+    
+}
+.heading{
+    font-size: 5rem;
+    -webkit-box-reflect:below 1px linear-gradient(transparent,#000);
+    animation: animate 4s linear infinite;
+}
+@keyframes animate{
+    0%
+    {
+        color: #6a6037;
+        text-shadow: none;
+    }
+    100%
+    {
+        color: aliceblue;
+        text-shadow: 0 0 10px #f0e2a6,
+        0 0 20px #f0e2a6,
+        0 0 40px #f0e2a6,
+        0 0 80px #f0e2a6,
+        0 0 160px #f0e2a6;
+    }
+}
+p{
+    padding-top: 6rem;
+    animation: info 2s linear infinite;
+}
+@keyframes info{
+   
+    0%{
+        color: #ffe053;
+    }
+    50%
+    {
+        color: #7f5e31;  
+    }
+    100%{
+        color: #ffe053;
+    }
 }
